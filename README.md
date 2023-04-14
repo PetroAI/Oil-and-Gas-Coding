@@ -1,23 +1,18 @@
 ### File 1: Hall and Yarborough Correlation
 
-My first code in Python is solving the Z factor , which is used in petroleum design. 
-There is a very complicated method through the graphs. But using this correlation, it becomes quite simple. 
-Also the difference between both the values of Z-factor is quite negligible. 
-This graph is used to calculate the Z factor manually.
+天然气压缩因子Z求解
 
 <img src ="Images/img.png" width="200" height="300">
 
 
 ### File 2: Frictional Pressure Loss in Pipelines 
 
-My second code in python is calculating the frictional pressure loss in pipelines. Fluid Programming is a great deal in Oil and Gas Engineering. 
-I have done a step by step calculation to calculate the frictional pressure loss in pipeline for single phase flow. 
-I used the Swamee - Jain Equation (1976) to calculate the friction factor based on the reynolds number. 
-Basic Equation to calculate the Friction Pressure loss are : 
+使用Swamee-Jain 公式(1976)以雷诺数为基础计算摩擦系数，计算单相流管道中的摩擦压力损失
+计算摩擦压力损失的基本方程为：
 
 <img src ="Images/cap3.JPG" width="150" height="75"> <img src ="Images/cap4.JPG" width="150" height="75"> 
 
-Specifically for Oil and gas these equations are modified as: 
+对于石油和天然气工程，方程可修改为：
 
 <img src ="Images/cap2.JPG" width="150" height="75"> <img src ="Images/cap5.JPG" width="150" height="75"> 
 <img src ="Images/cap1.JPG" width="150" height="75">
@@ -25,5 +20,5 @@ Specifically for Oil and gas these equations are modified as:
 
 ### File 3: Casing Seat Selection
 
-My third code in python is solving the casing seat selection in drilling engineering domain with the help of python language. I have used numpy.interp in the eaton's curve to calculate the depth at which casing needs to be placed. 
-The pore pressure and fracture pressure data that I have used is available in the Data folder. 
+钻井工程领域中的套管座选择问题。在eaton曲线中使用了numpy.interp来计算需要放置套管的深度。
+孔隙压力和破裂压力数据在data文件夹中。 
