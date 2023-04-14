@@ -8,6 +8,7 @@
 ### File 2: Frictional Pressure Loss in Pipelines 
 
 使用Swamee-Jain 公式(1976)以雷诺数为基础计算摩擦系数，计算单相流管道中的摩擦压力损失
+
 计算摩擦压力损失的基本方程为：
 
 <img src ="Images/cap3.JPG" width="150" height="75"> <img src ="Images/cap4.JPG" width="150" height="75"> 
